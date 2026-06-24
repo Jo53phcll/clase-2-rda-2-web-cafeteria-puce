@@ -1,0 +1,98 @@
+/*SELECTOR UNIVERSAL*/
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+/*SELECTOR DE TIPO*/
+body{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(255, 0, 212);
+  padding-top: 80px;
+  text-align: justify;
+}
+
+/*SELECTOR DE CLASE*/
+.nav-bar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #006eff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px 40px;
+  box-shadow: 0 4px 10px rgb(255, 0, 0);
+  z-index: 1000;
+}
+
+/*SELECTOR POR ID*/
+#titulo-principal{
+margin-bottom: 40px;
+color: aqua;
+text-align: center;
+}
+
+  .logo{
+    color:blue;
+    font-size: 1.5 rem;
+    font-weight: bold;
+  }
+
+.navbar{
+    color: rgb(0, 255, 21);
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease-in-out;
+}
+.contenedor-principal{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.tarjeta{
+  background-color: #d84646;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(178, 3, 247, 0.288);
+  padding: 25px;
+  width: 400px;
+  height: 300px;
+}
+
+.tarjeta:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 204, 255, 0.288);
+}
+
+
+.tarjeta h1{
+  margin-bottom: 15px;
+  color: rgb(0, 17, 255);
+  text-align: center;
+
+}
+
+.tarjeta p {
+  font-size: 1.rem;
+  margin-bottom: 20px;
+  color: rgb(255, 0, 200);
+}
+
+.boton-tarjeta{
+  padding: 10px 20px;
+  border: none;
+  background-color: #15e915;
+  color: rgb(255, 0, 0);
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.boton-tarjeta:hover{
+  background-color: #000000;
+  color: rgb(255, 0, 0);
+}

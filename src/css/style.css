@@ -9,7 +9,7 @@ box-sizing: border-box;
 /*SELECTOR DE TIPO*/
 body{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: rgb(255, 0, 212);
+  color: rgb(0, 0, 0);
   padding-top: 80px;
   text-align: justify;
 }
@@ -19,30 +19,30 @@ body{
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #006eff;
+  background-color: #bbff00;
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 15px 40px;
-  box-shadow: 0 4px 10px rgb(255, 0, 0);
+  box-shadow: 0 4px 10px rgb(49, 49, 49);
   z-index: 1000;
 }
 
 /*SELECTOR POR ID*/
 #titulo-principal{
 margin-bottom: 40px;
-color: aqua;
+color: rgb(223, 176, 219);
 text-align: center;
 }
 
   .logo{
-    color:blue;
+    color:rgb(0, 0, 0);
     font-size: 1.5 rem;
     font-weight: bold;
   }
 
 .navbar{
-    color: rgb(0, 255, 21);
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 1rem;
     transition: color 0.3s ease-in-out;
@@ -55,9 +55,9 @@ text-align: center;
   padding: 20px;
 }
 .tarjeta{
-  background-color: #d84646;
+  background-color: #ffe7d9;
   border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(178, 3, 247, 0.288);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.288);
   padding: 25px;
   width: 400px;
   height: 300px;
@@ -65,13 +65,13 @@ text-align: center;
 
 .tarjeta:hover{
   transform: translateY(-10px);
-  box-shadow: 0 8px 16px rgba(0, 204, 255, 0.288);
+  box-shadow: 0 8px 16px rgba(94, 126, 134, 0.288);
 }
 
 
 .tarjeta h1{
   margin-bottom: 15px;
-  color: rgb(0, 17, 255);
+  color: rgb(0, 0, 0);
   text-align: center;
 
 }
@@ -79,20 +79,20 @@ text-align: center;
 .tarjeta p {
   font-size: 1.rem;
   margin-bottom: 20px;
-  color: rgb(255, 0, 200);
+  color: rgb(201, 128, 185);
 }
 
 .boton-tarjeta{
   padding: 10px 20px;
   border: none;
-  background-color: #15e915;
-  color: rgb(255, 0, 0);
+  background-color: #affff4;
+  color: rgb(0, 0, 0);
   border-radius: 10px;
   cursor: pointer;
   margin-top: 30px;
 }
 
 .boton-tarjeta:hover{
-  background-color: #000000;
-  color: rgb(255, 0, 0);
+  background-color: #97ffae;
+  color: rgb(255, 236, 195);
 }
